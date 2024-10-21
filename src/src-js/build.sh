@@ -65,9 +65,9 @@ H265WEBJS_COMPILE_MULTI_THREAD_SHAREDBUFFER=0
 # REMOVE_FUNCS='"console.log","console.warn","alert"'
 # REMOVE_FUNCS='"console.log","console.warn"'
 # REMOVE_FUNCS='"alert"'
-# REMOVE_FUNCS='"console.warn","alert"'
+REMOVE_FUNCS='"console.warn","alert"'
 # REMOVE_FUNCS='"console.log","alert"'
-REMOVE_FUNCS=''
+# REMOVE_FUNCS=''
 
 function echoLog {
     local log_str=$*

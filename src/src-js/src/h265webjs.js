@@ -3002,7 +3002,7 @@ class H265webjsModule {
                     // console.log("worker recv cmd:", cmd);
 
                     switch (cmd) {
-                        case 'start':
+                        case "start":
                             // console.log("worker start");
                             let url = body.url;
                             if (body.type === 'http') {
